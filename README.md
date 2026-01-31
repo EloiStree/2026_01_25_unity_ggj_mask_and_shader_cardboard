@@ -6,7 +6,9 @@
 During Global Game Jam, I supported students during the day and spent the nights developing a *Reality Hacker–style* application in Unity.
 
 This project is a tribute to the following app:   
-[https://reality-hacker-vr.fr.softonic.com/android](https://reality-hacker-vr.fr.softonic.com/android)   
+[https://reality-hacker-vr.fr.softonic.com/android](https://reality-hacker-vr.fr.softonic.com/android)     
+Context: [https://reality-hacker-vr.updatestar.com](https://reality-hacker-vr.updatestar.com)  
+
 The original app is no longer maintained on the Google Play Store.     
 With the jam’s theme *Mask* and my goal of recreating this experience one day,    
 the timing felt right to finally work on it.    
