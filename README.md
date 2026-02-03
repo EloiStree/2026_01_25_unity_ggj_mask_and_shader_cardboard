@@ -1,3 +1,6 @@
+Itchio: https://eloistree.itch.io/mask-and-shader-ggj
+
+-------------
 
 # Mask and Shader Cardboard
 
