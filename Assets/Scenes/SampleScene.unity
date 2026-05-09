@@ -432,6 +432,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &917103674 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1568734278422535299, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
+  m_PrefabInstance: {fileID: 1381317355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &917103677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917103674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c202b2b0c27b8d346800504da0266716, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.texturetoolbox::Eloi.TextureUtility.TextureMono_WebcamList
+  m_devicesNameList:
+  - MTD camera
+  - MiraBox Video Capture
+  - USB Camera
+  - HD Webcam C525
+  - OBS Virtual Camera
+  m_onWebcamListRefesh:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!158 &947237642
+Texture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
 --- !u!1001 &1381317355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -543,6 +580,46 @@ PrefabInstance:
     - target: {fileID: 3640913473107108338, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766896950849869918, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
+      propertyPath: m_texture
+      value: 
+      objectReference: {fileID: 947237642}
+    - target: {fileID: 3766896950849869918, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
+      propertyPath: m_selected
+      value: MiraBox Video Capture
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766896950849869918, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
+      propertyPath: m_webcamFound
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766896950849869918, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
+      propertyPath: m_availableWebcams.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766896950849869918, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
+      propertyPath: m_nameOfWebcamsToUse.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766896950849869918, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
+      propertyPath: 'm_availableWebcams.Array.data[0]'
+      value: MiraBox Video Capture
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766896950849869918, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
+      propertyPath: 'm_nameOfWebcamsToUse.Array.data[0]'
+      value: HD Webcam C525
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766896950849869918, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
+      propertyPath: 'm_nameOfWebcamsToUse.Array.data[1]'
+      value: MiraBox Video Capture
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766896950849869918, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
+      propertyPath: 'm_nameOfWebcamsToUse.Array.data[2]'
+      value: USB Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766896950849869918, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
+      propertyPath: 'm_nameOfWebcamsToUse.Array.data[3]'
+      value: MTD camera
       objectReference: {fileID: 0}
     - target: {fileID: 3974335495451975891, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -747,7 +824,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1568734278422535299, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 917103677}
   m_SourcePrefab: {fileID: 100100000, guid: c16eed36d6e24ed49824ca572c1015f3, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
